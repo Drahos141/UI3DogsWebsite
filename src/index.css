@@ -159,7 +159,7 @@ h1 em, h2 em { color: var(--brown); font-weight: 400; }
 .site-footer p { margin: 0; color: #93897d; font-size: 9px; }
 .back-top { color: #756b5e; font-size: 10px; }
 .falling-paws { position: fixed; inset: 0; z-index: 3; overflow: hidden; pointer-events: none; }
-.falling-paw { position: absolute; top: -35px; color: #28241f; font-size: 17px; opacity: .76; animation: paw-fall 15s linear infinite; }
+.falling-paw { position: absolute; top: -35px; color: #28241f; font-size: 17px; opacity: .76; filter: grayscale(1) brightness(.25); animation: paw-fall 15s linear infinite; }
 .paw-one { left: 13%; animation-delay: -4s; animation-duration: 18s; }
 .paw-two { left: 36%; font-size: 13px; animation-delay: -12s; animation-duration: 21s; }
 .paw-three { left: 57%; animation-delay: -7s; animation-duration: 17s; }
